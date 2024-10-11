@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(59, 22, 224, 0.514);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.breeds button {
+    background-color: #dbd818de;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.breeds button:hover {
+    background-color: #000000;
+}
+
+.images img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #f1c40f;
+    color: #fff;
+}
